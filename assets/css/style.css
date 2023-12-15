@@ -25,3 +25,13 @@ body {
     'seccion-principal'
     'pie-de-pagina';
 }
+
+@media (min-width: 992px) {
+    body {
+        grid-template-areas: 
+        'menu seccion-principal'
+        'menu seccion-principal'
+        'menu pie-de-pagina';
+        grid-template-columns: 6rem 1fr;
+    }
+}
