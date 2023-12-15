@@ -16,3 +16,12 @@ footer {
     color: white;
     padding: 10px;
 }
+body {
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: 38px calc(100vh - 76px) 38px;
+    grid-template-areas: 
+    'menu'
+    'seccion-principal'
+    'pie-de-pagina';
+}
